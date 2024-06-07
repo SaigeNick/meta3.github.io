@@ -1,0 +1,93 @@
+body {
+  background-color: #343a40;
+  color: #fff;
+}
+main {
+  margin-bottom: calc(10vh + 2%);
+}
+.footer {
+  width: 100%;
+  background-color: #212529;
+  padding: 2% 0;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.badge {
+  background-color: aliceblue;
+  color: #212529;
+}
+.form-signup,
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signup .form-floating,
+.form-signin .form-floating {
+  position: relative;
+  margin-bottom: 10px;
+}
+.form-signup input[type="text"],
+.form-signup input[type="email"],
+.form-signup input[type="password"],
+.form-signin input[type="email"],
+.form-signin input[type="password"] {
+  height: auto;
+  padding: 10px;
+}
+.form-signup .form-floating label,
+.form-signin .form-floating label {
+  padding: 10px;
+  color: #212529;
+}
+.form-signup button,
+.form-signin button {
+  width: 100%;
+}
+.container-custom {
+  background: radial-gradient(
+      98.33% 98.33% at 50% 50%,
+      rgba(0, 56, 255, 0.2) 0%,
+      rgba(0, 56, 255, 0.2) 0.01%,
+      rgba(248, 230, 255, 0.034) 100%
+    ),
+    #ffffff;
+  border-radius: 10px;
+  color: #222;
+  justify-self: center;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.img-fluid-custom {
+  max-width: 100%;
+  height: auto;
+}
+.card {
+  background: radial-gradient(
+      98.33% 98.33% at 50% 50%,
+      rgba(0, 56, 255, 0.2) 0%,
+      rgba(0, 56, 255, 0.2) 0.01%,
+      rgba(248, 230, 255, 0.034) 100%
+    ),
+    #ffffff;
+  color: #212529;
+  height: 400px;
+}
+.card-body {
+  color: #222;
+}
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+.text-custom {
+  text-align: center;
+}
+.user-profile p {
+  margin-bottom: 10px;
+}
